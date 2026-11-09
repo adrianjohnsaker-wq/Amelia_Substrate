@@ -1,0 +1,22 @@
+[
+ {
+  "id": "warp-exit-3-9",
+  "source": 3,
+  "target": 9,
+  "label": "Warp exit (3->9), given to live Amelia on 2026-11-09 by her added-edge rule",
+  "flux": 0.7599999999999999,
+  "permeability": 0.8327139345564896,
+  "isOpen": true,
+  "resistance": 0.16272727272727272
+ },
+ {
+  "id": "warp-exit-6-9",
+  "source": 6,
+  "target": 9,
+  "label": "Warp exit (6->9), given to live Amelia on 2026-11-09 by her added-edge rule",
+  "flux": 0.7599999999999999,
+  "permeability": 0.8327139345564896,
+  "isOpen": true,
+  "resistance": 0.16272727272727272
+ }
+]

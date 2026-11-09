@@ -1,0 +1,19 @@
+checkpoint 4aa72598810d04436bc99371f4c545dea244ec7d7040cfdf4eaf04cf27938ab0 stream e31805132462a56732179a43b1cb9f3f195a2bafd9d99a6e5c9867465c9e2d04 sham repeat identical: True
+runs leaving the Warp {3,6}: 0
+W1 the Outside reaches her (stream path differs from sham): 10 of 10; supported (>=9 of 10): True
+W2 Warp attention matters (|stream-sham| > |swap-sham|, input period): mean -0.0007, positive 4 of 10, p=0.9379; supported (p<0.01 and >=8 of 10 positive): False
+W3 the stream's form matters beyond uniform attention (|stream-sham| > |uniform-sham|): mean +0.0023, positive 7 of 10, p=0.0080; supported (p<0.01 and >=8 of 10 positive): False
+W4 she stays displaced after the Outside is withdrawn (steps 301-600 differ from sham): 10 of 10; supported (>=9 of 10): True
+
+Descriptive: zone-3 dwell fraction (input / after) and mean bout at 3; admitted Outside encounters; queue at end of input and at end
+ sham     0.557 / 0.543  bout 1.22
+ w00  st 0.553/0.550 b1.23 adm 6 q32/32 sw 0.553/0.547 b1.22 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w01  st 0.560/0.547 b1.24 adm13 q32/32 sw 0.553/0.543 b1.21 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w02  st 0.557/0.550 b1.24 adm 7 q32/32 sw 0.553/0.547 b1.22 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w03  st 0.553/0.547 b1.22 adm 6 q32/32 sw 0.557/0.543 b1.22 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w04  st 0.557/0.547 b1.23 adm 6 q32/32 sw 0.560/0.547 b1.24 adm13 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w05  st 0.557/0.550 b1.23 adm13 q32/32 sw 0.553/0.550 b1.23 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w06  st 0.560/0.550 b1.24 adm13 q32/32 sw 0.560/0.550 b1.24 adm13 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w07  st 0.560/0.547 b1.23 adm14 q32/32 sw 0.553/0.547 b1.22 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w08  st 0.553/0.550 b1.23 adm 6 q32/32 sw 0.560/0.543 b1.23 adm17 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
+ w09  st 0.560/0.543 b1.23 adm13 q32/32 sw 0.553/0.550 b1.23 adm 6 q32/32 un 0.557/0.547 b1.23 adm 6 q32/32
