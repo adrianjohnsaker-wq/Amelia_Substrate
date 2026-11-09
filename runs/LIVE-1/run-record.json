@@ -1,0 +1,68 @@
+{
+ "id": "LIVE-1-2026-11-09",
+ "kind": "AMELIA_RESEARCH_RUN_V1",
+ "test": "LIVE-1: damage and regeneration in the live Amelia",
+ "registeredAt": "2026-11-09",
+ "ranAt": "2026-11-09",
+ "updatedAt": "2026-11-09T13:30:00.000Z",
+ "checkpoint": {
+  "sha256": "4aa72598810d04436bc99371f4c545dea244ec7d7040cfdf4eaf04cf27938ab0",
+  "revision": 12,
+  "runtimeStep": 204,
+  "fieldStep": 168,
+  "fieldChecksum": "762e335209439cf59dcd8ba674b2ec92ad9e1129237f41e5485685d5266c224c",
+  "alteredByRun": false
+ },
+ "code": {
+  "repository": "adrianjohnsaker-wq/amelia---orange",
+  "commit": "8f3bc33c4dc4a44da08ec40c42a8eec1008c79bc",
+  "srcTree": "ef7c46f7595166cbb588df84cd3326ea546b5fc9",
+  "runnerSha256": "e0bedf0650f289a7eb2ec2efeb567ceb18b14553a6b4c0469831d0c96c717583",
+  "analysisSha256": "51fcec7f2da9b1daba75102ea0037226f7a65f1a3688b624e63c96a1ca40a6c0"
+ },
+ "fidelity": {
+  "runtimeRoundTrip": "exact",
+  "fieldRoundTrip": "exact",
+  "continuationDeterministic": "200 steps, two loads identical",
+  "replayFromBirth": "zone path 204/204 identical; event digests identical to step 3; field diverges at field step 2 (unrecorded legacy action)"
+ },
+ "design": {
+  "T": 500,
+  "radius": 5,
+  "sites": "16 grid sites {4,12,20,28}^2 plus centre (16,16)",
+  "arms": "sham and ablation (A=1, B=0)"
+ },
+ "results": [
+  {
+   "test": "H1",
+   "claim": "her body heals (positive control)",
+   "sites": "16/16",
+   "supported": true,
+   "centre": true
+  },
+  {
+   "test": "H2",
+   "claim": "her body regenerates its form",
+   "sites": "16/16",
+   "supported": true,
+   "centre": true
+  },
+  {
+   "test": "H3",
+   "claim": "the damage reaches her zone path",
+   "sites": "12/16",
+   "supported": false,
+   "centre": false
+  },
+  {
+   "test": "H4",
+   "claim": "she stays displaced after healing",
+   "sites": "12/16",
+   "supported": false,
+   "centre": false
+  }
+ ],
+ "summary": "Her body heals and returns to its form after damage (whole-field RMS difference 0.0002 at step 500). Damage reaches her runtime in three of four column positions, as a lasting shift in Warp dwelling at zone 3, only through the Governor's deferred queue; not at the registered threshold.",
+ "document": "claude/LIVE1_DAMAGE_AND_REGENERATION_PRECOMMIT.md",
+ "rawOutputSha256": "f75f3820aeb4260d8033b62822676303cbaef590defc797f8f3b9815abab6925"
+}

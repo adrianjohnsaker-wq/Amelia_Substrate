@@ -1,0 +1,39 @@
+checkpoint 4aa72598810d04436bc99371f4c545dea244ec7d7040cfdf4eaf04cf27938ab0 T 500 radius 5
+determinism: sham repeat field checksum equal: True
+H1 healing (disc B mass within 10% of sham at T): 16 of 16 sites; supported (>=14): True; centre site: True
+H2 form regenerated (disc RMS to sham < 10% of initial at T): 16 of 16 sites; supported (>=14): True; centre site: True
+H3 the damage reaches her (zone path differs from sham): 12 of 16 sites; supported (>=14): False; centre site: False
+H4 she stays displaced (last 100 zones differ from sham): 12 of 16 sites; supported (>=14): False; centre site: False
+
+Descriptive (median over the 16 grid sites):
+ t=   0  m=1.0000  f=1.0000  whole-field RMS=0.08054   centre m=1.0000 f=1.0000
+ t=   1  m=0.9296  f=0.9357  whole-field RMS=0.07520   centre m=0.9854 f=1.0116
+ t=   5  m=0.8270  f=0.8419  whole-field RMS=0.06875   centre m=0.9302 f=0.9672
+ t=  10  m=0.7463  f=0.7676  whole-field RMS=0.06509   centre m=0.7845 f=0.7955
+ t=  25  m=0.5871  f=0.6135  whole-field RMS=0.05122   centre m=0.5973 f=0.5991
+ t=  50  m=0.3867  f=0.4503  whole-field RMS=0.04506   centre m=0.3042 f=0.3329
+ t= 100  m=0.1974  f=0.2547  whole-field RMS=0.02348   centre m=0.1490 f=0.1887
+ t= 200  m=0.0093  f=0.0222  whole-field RMS=0.00360   centre m=0.0093 f=0.0189
+ t= 300  m=0.0030  f=0.0032  whole-field RMS=0.00096   centre m=0.0032 f=0.0033
+ t= 400  m=0.0020  f=0.0020  whole-field RMS=0.00064   centre m=0.0020 f=0.0019
+ t= 500  m=0.0005  f=0.0005  whole-field RMS=0.00018   centre m=0.0002 f=0.0003
+
+per site: zone steps differing, address steps differing, attended, Governor tension at T, deferred queue
+ g4_4       32   54   6 0.7858 1
+ g12_4      33   29   6 0.8255 1
+ g20_4       0   34   6 0.7946 1
+ g28_4     174   90  17 0.7908 1
+ g4_12      32   49   6 0.7858 1
+ g12_12     33   30   6 0.8255 1
+ g20_12      0   34   6 0.7946 1
+ g28_12    174   90  17 0.7908 1
+ g4_20      32   49   6 0.7858 1
+ g12_20     33   29   6 0.8255 1
+ g20_20      0   33   6 0.7946 1
+ g28_20    174   94  17 0.7908 1
+ g4_28      32   55   6 0.7858 1
+ g12_28     33   31   6 0.8255 1
+ g20_28      0   32   6 0.7946 1
+ g28_28    174   95  17 0.7908 1
+ centre      0    3   6 0.8028 1
+ sham     zone counts {'3': 275, '6': 225} attended 6 tension 0.8028 queue 1
