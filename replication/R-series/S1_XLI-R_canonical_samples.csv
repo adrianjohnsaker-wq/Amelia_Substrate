@@ -1,0 +1,11 @@
+# canonicalRecordDigest=23429c7b9a1856e00e865c64487f293460544a2cbdc0d06ac024ae648e8a4fc5 auditEnvelopeDigest=9c6933d1dc4f2f24e7b24c59ea8b752c9ab8106e06083b300ae30e8047d3d6cb
+id,role,coefficient,fieldConfidence,hingeOccupancy,recaptureScore,morphogeneticTransitionScore,boundaryMargin,composite
+P1,knee-repeat,0.07176,0.5751,0.143,0.1564,0.3879,0.1159,0.6311
+P2,knee-repeat,0.07462,0.5752,0.1431,0.1562,0.3879,0.1159,0.6314
+P3,post-knee-low,0.08748,0.5745,0.1427,0.1561,0.3878,0.1159,0.6309
+P4,post-knee-mid,0.10177,0.5739,0.1436,0.1559,0.3883,0.1165,0.6324
+P5,candidate plateau,0.1132,0.5787,0.1444,0.1561,0.3879,0.1155,0.6335
+P6,candidate plateau,0.1232,0.5812,0.1452,0.1568,0.3879,0.115,0.6342
+P7,late plateau,0.1332,0.5747,0.1441,0.1559,0.3884,0.1164,0.6332
+P8,sub-overpressure,0.1432,0.5761,0.143,0.1568,0.3877,0.1154,0.6307
+P9,plateau recovery,0.12034,0.5816,0.1448,0.1466,0.3981,0.1174,0.6468

@@ -1,0 +1,1417 @@
+{
+ "R-XXXIX": {
+  "overall": {
+   "n": 100,
+   "hingeRate": 0.99,
+   "recaptureEvents": 1,
+   "regions": {
+    "hinge-stratum": 99,
+    "bifurcation-dissolution": 1,
+    "metabolic-integration": 0
+   },
+   "gamma": {
+    "directional": 34,
+    "stabilized": 34,
+    "oscillatory": 32
+   },
+   "fieldConfidence": {
+    "mean": 0.4095037839840751,
+    "sd": 0.024683773722310308
+   },
+   "hingeOccupancy": {
+    "mean": 0.3417100000000002,
+    "sd": 0.022974863295226466
+   },
+   "morphogeneticTransitionScore": {
+    "mean": 0.53719,
+    "sd": 0.026075529377622083
+   },
+   "recaptureScore": {
+    "mean": 0.28314000000000006,
+    "sd": 0.02528744648031804
+   },
+   "boundaryMargin": {
+    "mean": 0.10263918123057846,
+    "sd": 0.03726400571965096
+   },
+   "composite": {
+    "mean": 0.4215805930429308,
+    "sd": 0.02453918508566367
+   }
+  },
+  "byCondition": {
+   "Fresh digest baseline": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 5,
+     "stabilized": 5,
+     "oscillatory": 10
+    },
+    "fieldConfidence": {
+     "mean": 0.4182506403474105,
+     "sd": 0.022988492169318697
+    },
+    "hingeOccupancy": {
+     "mean": 0.3503500000000003,
+     "sd": 0.021161720654347377
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5468,
+     "sd": 0.02273555064558355
+    },
+    "recaptureScore": {
+     "mean": 0.28250000000000003,
+     "sd": 0.023493560147858656
+    },
+    "boundaryMargin": {
+     "mean": 0.11675084418747869,
+     "sd": 0.03350344522527348
+    },
+    "composite": {
+     "mean": 0.4299302969069779,
+     "sd": 0.022349662832876222
+    }
+   },
+   "Metabolic-background variation": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 8,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.4165100477998278,
+     "sd": 0.02032540822643351
+    },
+    "hingeOccupancy": {
+     "mean": 0.3478500000000002,
+     "sd": 0.018279338350342893
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5453499999999999,
+     "sd": 0.02215323428923379
+    },
+    "recaptureScore": {
+     "mean": 0.27890000000000004,
+     "sd": 0.02591869879774872
+    },
+    "boundaryMargin": {
+     "mean": 0.11308611824183534,
+     "sd": 0.02681714593407053
+    },
+    "composite": {
+     "mean": 0.42877923320833267,
+     "sd": 0.020468215225122207
+    }
+   },
+   "Attenuated target support": {
+    "n": 20,
+    "hingeRate": 0.95,
+    "recaptureEvents": 1,
+    "regions": {
+     "hinge-stratum": 19,
+     "bifurcation-dissolution": 1,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 8,
+     "oscillatory": 6
+    },
+    "fieldConfidence": {
+     "mean": 0.377608859066846,
+     "sd": 0.017756542362281448
+    },
+    "hingeOccupancy": {
+     "mean": 0.3118000000000002,
+     "sd": 0.016634143706307992
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.504,
+     "sd": 0.021669770357999215
+    },
+    "recaptureScore": {
+     "mean": 0.2952,
+     "sd": 0.02684379767626426
+    },
+    "boundaryMargin": {
+     "mean": 0.05418941829109245,
+     "sd": 0.026180426797492523
+    },
+    "composite": {
+     "mean": 0.39047965547158775,
+     "sd": 0.018913242918187956
+    }
+   },
+   "Ring/bifurcation recapture check": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 8,
+     "stabilized": 8,
+     "oscillatory": 4
+    },
+    "fieldConfidence": {
+     "mean": 0.42420491861770754,
+     "sd": 0.01489300693881061
+    },
+    "hingeOccupancy": {
+     "mean": 0.35570000000000024,
+     "sd": 0.013966501276079747
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5517000000000001,
+     "sd": 0.016518251468570964
+    },
+    "recaptureScore": {
+     "mean": 0.2842,
+     "sd": 0.02632509309225305
+    },
+    "boundaryMargin": {
+     "mean": 0.12546241145274806,
+     "sd": 0.025673969592109613
+    },
+    "composite": {
+     "mean": 0.4345734660140911,
+     "sd": 0.01632057535595343
+    }
+   },
+   "Near-floor permeability": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 11,
+     "stabilized": 5,
+     "oscillatory": 4
+    },
+    "fieldConfidence": {
+     "mean": 0.4109444540885835,
+     "sd": 0.01622680256623617
+    },
+    "hingeOccupancy": {
+     "mean": 0.3428500000000002,
+     "sd": 0.015142394304176545
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5380999999999999,
+     "sd": 0.015599932523470805
+    },
+    "recaptureScore": {
+     "mean": 0.27490000000000003,
+     "sd": 0.021200546169727247
+    },
+    "boundaryMargin": {
+     "mean": 0.10370711397973782,
+     "sd": 0.02653707823080372
+    },
+    "composite": {
+     "mean": 0.42414031361366433,
+     "sd": 0.016260232152355024
+    }
+   }
+  }
+ },
+ "R-XL": {
+  "byCondition": {
+   "low": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 8,
+     "stabilized": 8,
+     "oscillatory": 4
+    },
+    "fieldConfidence": {
+     "mean": 0.41645235440308104,
+     "sd": 0.022622645428463733
+    },
+    "hingeOccupancy": {
+     "mean": 0.34835000000000027,
+     "sd": 0.020941711084768014
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5363,
+     "sd": 0.025408452799889444
+    },
+    "recaptureScore": {
+     "mean": 0.277,
+     "sd": 0.02683673836955209
+    },
+    "boundaryMargin": {
+     "mean": 0.11202563290678007,
+     "sd": 0.034869926366564254
+    },
+    "composite": {
+     "mean": 0.4272255974619723,
+     "sd": 0.02297299163486737
+    }
+   },
+   "knee": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 5,
+     "stabilized": 6,
+     "oscillatory": 9
+    },
+    "fieldConfidence": {
+     "mean": 0.4259444865248678,
+     "sd": 0.019868860865038505
+    },
+    "hingeOccupancy": {
+     "mean": 0.3568500000000002,
+     "sd": 0.01888545806475951
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5536000000000001,
+     "sd": 0.021451045858443627
+    },
+    "recaptureScore": {
+     "mean": 0.27090000000000003,
+     "sd": 0.02156483492316038
+    },
+    "boundaryMargin": {
+     "mean": 0.1281495335489315,
+     "sd": 0.03185462434088778
+    },
+    "composite": {
+     "mean": 0.4387288040147599,
+     "sd": 0.020665857997349973
+    }
+   },
+   "high": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 8,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.4325325779552121,
+     "sd": 0.014825895360971536
+    },
+    "hingeOccupancy": {
+     "mean": 0.36355000000000026,
+     "sd": 0.014460381446523039
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5614,
+     "sd": 0.018259532478017843
+    },
+    "recaptureScore": {
+     "mean": 0.2814,
+     "sd": 0.023297616774434694
+    },
+    "boundaryMargin": {
+     "mean": 0.1383036090775453,
+     "sd": 0.024950737413881693
+    },
+    "composite": {
+     "mean": 0.4428772374065515,
+     "sd": 0.015040866770789333
+    }
+   },
+   "untargeted control": {
+    "n": 20,
+    "hingeRate": 0.7,
+    "recaptureEvents": 3,
+    "regions": {
+     "hinge-stratum": 14,
+     "bifurcation-dissolution": 3,
+     "metabolic-integration": 3
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 9,
+     "oscillatory": 5
+    },
+    "fieldConfidence": {
+     "mean": 0.35910653862529307,
+     "sd": 0.012709670321097795
+    },
+    "hingeOccupancy": {
+     "mean": 0.2908000000000002,
+     "sd": 0.015504159034543651
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.4804000000000001,
+     "sd": 0.020064107781125766
+    },
+    "recaptureScore": {
+     "mean": 0.3066,
+     "sd": 0.028217948748605868
+    },
+    "boundaryMargin": {
+     "mean": 0.027422666262767476,
+     "sd": 0.020863176331768825
+    },
+    "composite": {
+     "mean": 0.37022584097761213,
+     "sd": 0.016037533915835695
+    }
+   }
+  },
+  "coefficientSensitivity": {
+   "spearmanRho": 0.3502124732476593,
+   "p": 0.00608569721362161,
+   "passed": true
+  },
+  "nonCircularity": {
+   "kneeHinge": 20,
+   "untargetedHinge": 14,
+   "fisherP_oneSided": 0.0100980100980101,
+   "passed": true
+  }
+ },
+ "R-XLI": {
+  "curve": [
+   {
+    "c": 0.0015,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 2,
+     "stabilized": 11,
+     "oscillatory": 7
+    },
+    "fieldConfidence": {
+     "mean": 0.4217769965388298,
+     "sd": 0.015384918681296957
+    },
+    "hingeOccupancy": {
+     "mean": 0.3532000000000003,
+     "sd": 0.014259253689778931
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5471,
+     "sd": 0.01943111991246595
+    },
+    "recaptureScore": {
+     "mean": 0.28090000000000004,
+     "sd": 0.027609876188746205
+    },
+    "boundaryMargin": {
+     "mean": 0.11996386018416491,
+     "sd": 0.025153166545050794
+    },
+    "composite": {
+     "mean": 0.43222817134459907,
+     "sd": 0.0158299993945935
+    }
+   },
+   {
+    "c": 0.012193,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 9,
+     "stabilized": 8,
+     "oscillatory": 3
+    },
+    "fieldConfidence": {
+     "mean": 0.42226584302631165,
+     "sd": 0.02021109751224671
+    },
+    "hingeOccupancy": {
+     "mean": 0.35340000000000027,
+     "sd": 0.018759979800236026
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54455,
+     "sd": 0.02224853632086956
+    },
+    "recaptureScore": {
+     "mean": 0.2713,
+     "sd": 0.029266650681368765
+    },
+    "boundaryMargin": {
+     "mean": 0.12088042384379023,
+     "sd": 0.03149819818406569
+    },
+    "composite": {
+     "mean": 0.43395925337402047,
+     "sd": 0.02099295342368325
+    }
+   },
+   {
+    "c": 0.022886,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 5,
+     "stabilized": 6,
+     "oscillatory": 9
+    },
+    "fieldConfidence": {
+     "mean": 0.4173570281073321,
+     "sd": 0.015439227982821173
+    },
+    "hingeOccupancy": {
+     "mean": 0.3492500000000003,
+     "sd": 0.01450544362426887
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5422,
+     "sd": 0.019110757510668663
+    },
+    "recaptureScore": {
+     "mean": 0.28330000000000005,
+     "sd": 0.026709154748295966
+    },
+    "boundaryMargin": {
+     "mean": 0.11372009415874826,
+     "sd": 0.02407462887840849
+    },
+    "composite": {
+     "mean": 0.42784542445321605,
+     "sd": 0.01527173338656374
+    }
+   },
+   {
+    "c": 0.033579,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 8,
+     "stabilized": 9,
+     "oscillatory": 3
+    },
+    "fieldConfidence": {
+     "mean": 0.4209695650303679,
+     "sd": 0.01724246706679667
+    },
+    "hingeOccupancy": {
+     "mean": 0.35255000000000025,
+     "sd": 0.01593894601283286
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5475,
+     "sd": 0.02069706310210776
+    },
+    "recaptureScore": {
+     "mean": 0.2762,
+     "sd": 0.023439956888769403
+    },
+    "boundaryMargin": {
+     "mean": 0.12021972064577971,
+     "sd": 0.025454041596634603
+    },
+    "composite": {
+     "mean": 0.43300785713522955,
+     "sd": 0.01803884644173344
+    }
+   },
+   {
+    "c": 0.044271,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 7,
+     "oscillatory": 7
+    },
+    "fieldConfidence": {
+     "mean": 0.41768657491498784,
+     "sd": 0.011051915565111313
+    },
+    "hingeOccupancy": {
+     "mean": 0.34920000000000023,
+     "sd": 0.010211448683244044
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5453,
+     "sd": 0.014415269681833901
+    },
+    "recaptureScore": {
+     "mean": 0.28070000000000006,
+     "sd": 0.02046074547183356
+    },
+    "boundaryMargin": {
+     "mean": 0.11364535586266182,
+     "sd": 0.019953015572885795
+    },
+    "composite": {
+     "mean": 0.42902638615552996,
+     "sd": 0.012285223335833389
+    }
+   },
+   {
+    "c": 0.054964,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 2,
+     "stabilized": 9,
+     "oscillatory": 9
+    },
+    "fieldConfidence": {
+     "mean": 0.42409564708627184,
+     "sd": 0.011112839858155824
+    },
+    "hingeOccupancy": {
+     "mean": 0.3555500000000003,
+     "sd": 0.010313379149128787
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.55135,
+     "sd": 0.014847558721890926
+    },
+    "recaptureScore": {
+     "mean": 0.2756,
+     "sd": 0.01840594869514801
+    },
+    "boundaryMargin": {
+     "mean": 0.1281933566966887,
+     "sd": 0.01769189923393384
+    },
+    "composite": {
+     "mean": 0.4367178007565921,
+     "sd": 0.012048877872247817
+    }
+   },
+   {
+    "c": 0.065657,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 8,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.4162246011789115,
+     "sd": 0.018776015777910784
+    },
+    "hingeOccupancy": {
+     "mean": 0.3483000000000003,
+     "sd": 0.01714980435671745
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54465,
+     "sd": 0.02139915148342396
+    },
+    "recaptureScore": {
+     "mean": 0.28990000000000005,
+     "sd": 0.022835567825099875
+    },
+    "boundaryMargin": {
+     "mean": 0.11427836199291005,
+     "sd": 0.027070496161575155
+    },
+    "composite": {
+     "mean": 0.42671059263436434,
+     "sd": 0.019659272411692047
+    }
+   },
+   {
+    "c": 0.07635,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 10,
+     "oscillatory": 6
+    },
+    "fieldConfidence": {
+     "mean": 0.42797668416337126,
+     "sd": 0.01768828272854819
+    },
+    "hingeOccupancy": {
+     "mean": 0.3590500000000002,
+     "sd": 0.016990632093814784
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5532499999999999,
+     "sd": 0.01944729720092362
+    },
+    "recaptureScore": {
+     "mean": 0.2751,
+     "sd": 0.01900110800093399
+    },
+    "boundaryMargin": {
+     "mean": 0.13360320930115172,
+     "sd": 0.028892653045058978
+    },
+    "composite": {
+     "mean": 0.43975597869290467,
+     "sd": 0.01696746195075283
+    }
+   },
+   {
+    "c": 0.087043,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 10,
+     "oscillatory": 4
+    },
+    "fieldConfidence": {
+     "mean": 0.41833333406329964,
+     "sd": 0.01606528421898055
+    },
+    "hingeOccupancy": {
+     "mean": 0.34985000000000027,
+     "sd": 0.014575664650368449
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5463500000000001,
+     "sd": 0.01863859888567412
+    },
+    "recaptureScore": {
+     "mean": 0.27880000000000005,
+     "sd": 0.029079926156425465
+    },
+    "boundaryMargin": {
+     "mean": 0.11690890797561744,
+     "sd": 0.02381086847912915
+    },
+    "composite": {
+     "mean": 0.4305284484077834,
+     "sd": 0.017023079304487952
+    }
+   },
+   {
+    "c": 0.097736,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 9,
+     "stabilized": 6,
+     "oscillatory": 5
+    },
+    "fieldConfidence": {
+     "mean": 0.4147290840322005,
+     "sd": 0.012560653258223805
+    },
+    "hingeOccupancy": {
+     "mean": 0.34705000000000025,
+     "sd": 0.011482137156653843
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5410999999999999,
+     "sd": 0.015144566508713365
+    },
+    "recaptureScore": {
+     "mean": 0.2859,
+     "sd": 0.02536865035930432
+    },
+    "boundaryMargin": {
+     "mean": 0.11064610663446846,
+     "sd": 0.020621732721641854
+    },
+    "composite": {
+     "mean": 0.42552503813333387,
+     "sd": 0.013458850652764951
+    }
+   },
+   {
+    "c": 0.108429,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 11,
+     "stabilized": 7,
+     "oscillatory": 2
+    },
+    "fieldConfidence": {
+     "mean": 0.4263299564443873,
+     "sd": 0.01575470835471887
+    },
+    "hingeOccupancy": {
+     "mean": 0.35750000000000026,
+     "sd": 0.014489560670394842
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5526500000000001,
+     "sd": 0.01873436189971446
+    },
+    "recaptureScore": {
+     "mean": 0.27340000000000003,
+     "sd": 0.024811712005252253
+    },
+    "boundaryMargin": {
+     "mean": 0.12724309516988447,
+     "sd": 0.02323575010900458
+    },
+    "composite": {
+     "mean": 0.4380646103228544,
+     "sd": 0.01633737300124192
+    }
+   },
+   {
+    "c": 0.119121,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 6,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.41778951271534137,
+     "sd": 0.01583791404333432
+    },
+    "hingeOccupancy": {
+     "mean": 0.34970000000000023,
+     "sd": 0.014079099851609099
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54625,
+     "sd": 0.016783058500511115
+    },
+    "recaptureScore": {
+     "mean": 0.28080000000000005,
+     "sd": 0.023164400999900914
+    },
+    "boundaryMargin": {
+     "mean": 0.11581003088068945,
+     "sd": 0.022850644574970484
+    },
+    "composite": {
+     "mean": 0.42974990871920626,
+     "sd": 0.016267599044467472
+    }
+   },
+   {
+    "c": 0.129814,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 7,
+     "stabilized": 8,
+     "oscillatory": 5
+    },
+    "fieldConfidence": {
+     "mean": 0.42287721907019993,
+     "sd": 0.02015971688041612
+    },
+    "hingeOccupancy": {
+     "mean": 0.35445000000000026,
+     "sd": 0.018972209593036492
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5514,
+     "sd": 0.017904424622216454
+    },
+    "recaptureScore": {
+     "mean": 0.28130000000000005,
+     "sd": 0.023932140907596468
+    },
+    "boundaryMargin": {
+     "mean": 0.12522977085772607,
+     "sd": 0.030619041654085348
+    },
+    "composite": {
+     "mean": 0.4345313979855853,
+     "sd": 0.01930543176421903
+    }
+   },
+   {
+    "c": 0.140507,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 7,
+     "stabilized": 7,
+     "oscillatory": 6
+    },
+    "fieldConfidence": {
+     "mean": 0.41957568667716344,
+     "sd": 0.018621653843619395
+    },
+    "hingeOccupancy": {
+     "mean": 0.3515500000000002,
+     "sd": 0.01767089489289634
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54735,
+     "sd": 0.023010924179157746
+    },
+    "recaptureScore": {
+     "mean": 0.284,
+     "sd": 0.022023910451573928
+    },
+    "boundaryMargin": {
+     "mean": 0.11700390594656525,
+     "sd": 0.0295726197893696
+    },
+    "composite": {
+     "mean": 0.43029591852474586,
+     "sd": 0.019349001911430255
+    }
+   },
+   {
+    "c": 0.1512,
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 8,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.42869905899407074,
+     "sd": 0.015992687990797796
+    },
+    "hingeOccupancy": {
+     "mean": 0.36000000000000026,
+     "sd": 0.014750557527375752
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5590500000000002,
+     "sd": 0.01975234829476976
+    },
+    "recaptureScore": {
+     "mean": 0.27890000000000004,
+     "sd": 0.02968944522712974
+    },
+    "boundaryMargin": {
+     "mean": 0.1324220423296527,
+     "sd": 0.024712461328537185
+    },
+    "composite": {
+     "mean": 0.44025422026474476,
+     "sd": 0.018196415132305258
+    }
+   }
+  ],
+  "knee": {
+   "c": 0.065657,
+   "index": 6
+  }
+ },
+ "R-XLI-R": {
+  "points": {
+   "P1": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 12,
+     "stabilized": 5,
+     "oscillatory": 3
+    },
+    "fieldConfidence": {
+     "mean": 0.42477172090780124,
+     "sd": 0.016189849203763672
+    },
+    "hingeOccupancy": {
+     "mean": 0.3560000000000002,
+     "sd": 0.014885528118559364
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.55015,
+     "sd": 0.01951861459708329
+    },
+    "recaptureScore": {
+     "mean": 0.2741,
+     "sd": 0.02408297061585656
+    },
+    "boundaryMargin": {
+     "mean": 0.12489259640496009,
+     "sd": 0.02256318967116144
+    },
+    "composite": {
+     "mean": 0.43634286346255224,
+     "sd": 0.01673906473777151
+    },
+    "c": 0.07176
+   },
+   "P2": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 7,
+     "oscillatory": 7
+    },
+    "fieldConfidence": {
+     "mean": 0.4160725526430332,
+     "sd": 0.015199351844207181
+    },
+    "hingeOccupancy": {
+     "mean": 0.34795000000000026,
+     "sd": 0.013488689218827217
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54335,
+     "sd": 0.016223034306357825
+    },
+    "recaptureScore": {
+     "mean": 0.27990000000000004,
+     "sd": 0.022547960579967965
+    },
+    "boundaryMargin": {
+     "mean": 0.1132600570323026,
+     "sd": 0.02168607565855924
+    },
+    "composite": {
+     "mean": 0.4281465219350672,
+     "sd": 0.015447946040553388
+    },
+    "c": 0.07462
+   },
+   "P3": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 7,
+     "stabilized": 9,
+     "oscillatory": 4
+    },
+    "fieldConfidence": {
+     "mean": 0.4210773320161362,
+     "sd": 0.02059431118498749
+    },
+    "hingeOccupancy": {
+     "mean": 0.35265000000000024,
+     "sd": 0.01929623633878135
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5488,
+     "sd": 0.01825145992718619
+    },
+    "recaptureScore": {
+     "mean": 0.2811,
+     "sd": 0.023677437628079157
+    },
+    "boundaryMargin": {
+     "mean": 0.12252737065279726,
+     "sd": 0.03017585255169608
+    },
+    "composite": {
+     "mean": 0.43279094053378675,
+     "sd": 0.019540495142180626
+    },
+    "c": 0.08748
+   },
+   "P4": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 9,
+     "oscillatory": 5
+    },
+    "fieldConfidence": {
+     "mean": 0.4176546881958121,
+     "sd": 0.018976108524341215
+    },
+    "hingeOccupancy": {
+     "mean": 0.34965000000000024,
+     "sd": 0.01804460846726364
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.54395,
+     "sd": 0.023582944327583313
+    },
+    "recaptureScore": {
+     "mean": 0.2836,
+     "sd": 0.022248358898674086
+    },
+    "boundaryMargin": {
+     "mean": 0.11389216854504629,
+     "sd": 0.030895311340604286
+    },
+    "composite": {
+     "mean": 0.4283093713481717,
+     "sd": 0.01968901353779116
+    },
+    "c": 0.10177
+   },
+   "P5": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 4,
+     "stabilized": 8,
+     "oscillatory": 8
+    },
+    "fieldConfidence": {
+     "mean": 0.4269822150043573,
+     "sd": 0.016046226194912316
+    },
+    "hingeOccupancy": {
+     "mean": 0.3583000000000003,
+     "sd": 0.014758048651498627
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.55615,
+     "sd": 0.019518614597083286
+    },
+    "recaptureScore": {
+     "mean": 0.2789,
+     "sd": 0.03011888723743048
+    },
+    "boundaryMargin": {
+     "mean": 0.12949752686531998,
+     "sd": 0.024699285258238054
+    },
+    "composite": {
+     "mean": 0.4384059483739355,
+     "sd": 0.01821313954464715
+    },
+    "c": 0.1132
+   },
+   "P6": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 6,
+     "stabilized": 5,
+     "oscillatory": 9
+    },
+    "fieldConfidence": {
+     "mean": 0.42820973731529277,
+     "sd": 0.019527847111182044
+    },
+    "hingeOccupancy": {
+     "mean": 0.3600500000000003,
+     "sd": 0.018449005107964083
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5587499999999997,
+     "sd": 0.020758954947836725
+    },
+    "recaptureScore": {
+     "mean": 0.2803,
+     "sd": 0.023648967931191544
+    },
+    "boundaryMargin": {
+     "mean": 0.13104089766927046,
+     "sd": 0.033781651694407826
+    },
+    "composite": {
+     "mean": 0.43955012699691265,
+     "sd": 0.02097725298676125
+    },
+    "c": 0.1232
+   },
+   "P7": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 7,
+     "stabilized": 6,
+     "oscillatory": 7
+    },
+    "fieldConfidence": {
+     "mean": 0.42423525972423215,
+     "sd": 0.020988770384422387
+    },
+    "hingeOccupancy": {
+     "mean": 0.35550000000000026,
+     "sd": 0.019435453226134547
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.55445,
+     "sd": 0.021174649689515126
+    },
+    "recaptureScore": {
+     "mean": 0.2765,
+     "sd": 0.020353455674522118
+    },
+    "boundaryMargin": {
+     "mean": 0.12836019968239915,
+     "sd": 0.031892620439465
+    },
+    "composite": {
+     "mean": 0.4372090918813264,
+     "sd": 0.021050847998274856
+    },
+    "c": 0.1332
+   },
+   "P8": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 3,
+     "stabilized": 8,
+     "oscillatory": 9
+    },
+    "fieldConfidence": {
+     "mean": 0.42858745687974587,
+     "sd": 0.017579479884806924
+    },
+    "hingeOccupancy": {
+     "mean": 0.35995000000000027,
+     "sd": 0.016191209440863125
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5581,
+     "sd": 0.024067667763598248
+    },
+    "recaptureScore": {
+     "mean": 0.2835,
+     "sd": 0.028409598081597258
+    },
+    "boundaryMargin": {
+     "mean": 0.1306385921442281,
+     "sd": 0.025510093129572437
+    },
+    "composite": {
+     "mean": 0.4387552098047949,
+     "sd": 0.019987608504177436
+    },
+    "c": 0.1432
+   },
+   "P9": {
+    "n": 20,
+    "hingeRate": 1.0,
+    "recaptureEvents": 0,
+    "regions": {
+     "hinge-stratum": 20,
+     "bifurcation-dissolution": 0,
+     "metabolic-integration": 0
+    },
+    "gamma": {
+     "directional": 5,
+     "stabilized": 9,
+     "oscillatory": 6
+    },
+    "fieldConfidence": {
+     "mean": 0.42051378907206827,
+     "sd": 0.01881219398153963
+    },
+    "hingeOccupancy": {
+     "mean": 0.35245000000000026,
+     "sd": 0.017224447130383284
+    },
+    "morphogeneticTransitionScore": {
+     "mean": 0.5482,
+     "sd": 0.022917701731010872
+    },
+    "recaptureScore": {
+     "mean": 0.2852,
+     "sd": 0.025301549775708032
+    },
+    "boundaryMargin": {
+     "mean": 0.1211818757655945,
+     "sd": 0.029180262208175222
+    },
+    "composite": {
+     "mean": 0.4314291329675326,
+     "sd": 0.020780586605320502
+    },
+    "c": 0.12034
+   }
+  },
+  "plateauDetected": true,
+  "plateau": {
+   "from": "P5",
+   "to": "P8",
+   "span": 0.002341035115586254,
+   "slopeCI": [
+    -0.37926717915069746,
+    0.36674815848892217
+   ],
+   "length": 4
+  },
+  "allPlateaus": [
+   {
+    "from": "P5",
+    "to": "P8",
+    "span": 0.002341035115586254,
+    "slopeCI": [
+     -0.37926717915069746,
+     0.36674815848892217
+    ],
+    "length": 4
+   }
+  ],
+  "thresholds": {
+   "fieldConfidence": 0.39329423133448144,
+   "hingeOccupancy": 0.32745000000000024,
+   "morphogeneticTransitionScore": 0.51545,
+   "boundaryMargin": 0.08220313865955232,
+   "recaptureScore": 0.318
+  },
+  "calibrationPass": 0.8888888888888888,
+  "validationPass": 0.9,
+  "validationN": 90,
+  "validationHingeRate": 1.0
+ }
+}

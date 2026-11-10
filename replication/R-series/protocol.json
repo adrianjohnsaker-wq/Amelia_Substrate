@@ -1,0 +1,115 @@
+{
+  "protocolId": "R-SERIES-v1",
+  "title": "Replication of Phases XXXIX-XLI-R on an open implementation",
+  "approvedBy": "Adrian Saker, 2026-11-10 (points 2-5 explicitly approved)",
+  "statusNote": "Replication arm on an open implementation. The graph and classifier are the replication's own and are not the original Phase XXXIV-XLI-R implementation.",
+  "memory": {
+    "source": "Amelia_Substrate src/ai/substrate/ProcessFieldMemory.ts",
+    "commit": "a3a61fb4612637246021e31e59be33af7a862a18",
+    "fileSha256": "e96f55b122a78561167446b5df519d54c359d5f7059f134a747590beb3b91f22",
+    "usage": "unmodified; reset() before every run"
+  },
+  "graph": {
+    "construction": "canonical N0 Numogram matrix restricted to Z0-Z8 (zone 9 deferred), plus the minimal arcs needed to meet the recorded degree sequence",
+    "vertices": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+    "arcs": [[0,1],[0,5],[1,2],[1,8],[2,3],[2,4],[2,7],[3,2],[3,6],[4,0],[4,5],[4,8],[5,0],[5,6],[6,3],[6,7],[7,2],[7,4],[7,8],[8,1],[8,4],[8,7]],
+    "addedArcs": [[8,4],[8,7],[2,4],[7,4],[4,8]],
+    "degreeSequenceInOut": [2, 2, 3, 2, 3, 2, 2, 3, 3],
+    "baselineArcWeight": 1.0
+  },
+  "strata": {
+    "return": [0, 1, 8],
+    "hinge": [2, 7],
+    "metabolic": [3, 4, 5, 6]
+  },
+  "regions": {
+    "return": "bifurcation-dissolution",
+    "hinge": "hinge-stratum",
+    "metabolic": "metabolic-integration"
+  },
+  "manipulatedArc": {
+    "arc": [3, 2],
+    "effectiveWeight": "1 + 10 * c",
+    "originalCoefficientRange": [0.0015, 0.1512]
+  },
+  "transitionRule": {
+    "formula": "P(j|i) proportional to w_ij * (1 + m_j) * (1 + s * [j in hinge])",
+    "modulation_m_j": {
+      "hinge": "corridorAvailability * hingeScale",
+      "metabolic": "persistenceFactor * metabolicScale",
+      "zone0": "releaseVolatility * returnScale",
+      "otherwise": 0
+    },
+    "targetSupport_s_default": 0.5,
+    "scalesDefault": { "hingeScale": 1.0, "metabolicScale": 1.0, "returnScale": 1.0 }
+  },
+  "pfmInputs": {
+    "selfLoopDepth": "fraction of the previous 20 steps on which the stratum did not change (stratum-level self-loop depth)",
+    "ringSignal": "1 if the step enters zone 0 from another zone, else 0",
+    "corridorSignal": "1 if the step enters the hinge stratum from outside it, else 0",
+    "latentSignal": "1 if the step traverses the manipulated arc 3->2, else 0",
+    "releaseSignal": "1 if the step leaves the hinge stratum for the return stratum, else 0",
+    "transitionSuccess": "true if the stratum changed on this step",
+    "compressionActive": "selfLoopDepth > 0.35"
+  },
+  "classifier": {
+    "nullDistribution": "stationary distribution of the unbiased random walk on the graph (all arc weights 1)",
+    "enrichment": "e_g = occ_g / pi_g for each stratum g over the full cycle",
+    "assignment": "region of the stratum with the largest enrichment",
+    "recaptureEvent": "assignment = bifurcation-dissolution in a run whose probe targets hinge-stratum"
+  },
+  "metrics": {
+    "fieldConfidence": "e_win / sum_g e_g",
+    "boundaryMargin": "(e_win - e_second) / sum_g e_g",
+    "hingeOccupancy": "occ_hinge over the full cycle",
+    "recaptureScore": "occupancy of the return stratum over the second half of the cycle (lower = less pull)",
+    "morphogeneticTransitionScore": "fraction of transitions whose source or target is in the hinge stratum",
+    "composite": "mean(fieldConfidence, hingeOccupancy, morphogeneticTransitionScore, 1 - recaptureScore, boundaryMargin)",
+    "gammaTrajectory": "compare hinge occupancy in the final third with the first third: increase > 0.02 directional; |change| <= 0.02 stabilized; decrease > 0.02 oscillatory"
+  },
+  "runs": {
+    "stepsPerCycle": 1000,
+    "seedsPerCondition": 20,
+    "prng": "mulberry32",
+    "seedRule": "seed = phaseBase + conditionIndex * 1000 + replicate (replicate 1..20)",
+    "phaseBases": { "R-XXXIX": 390000, "R-XL": 400000, "R-XLI": 410000, "R-XLI-R": 420000 },
+    "memoryPolicy": "PFM reset before every run",
+    "order": "all runs in a phase executed in an order shuffled by a fixed PRNG seed 7"
+  },
+  "phases": {
+    "R-XXXIX": {
+      "conditions": [
+        { "name": "Fresh digest baseline", "startZone": 0, "c": 0.0718, "s": 0.5 },
+        { "name": "Near-floor permeability", "startZone": 0, "c": 0.0015, "s": 0.5 },
+        { "name": "Attenuated target support", "startZone": 0, "c": 0.0718, "s": 0.25, "hingeScale": 0.5 },
+        { "name": "Metabolic-background variation", "startZone": 4, "c": 0.0718, "s": 0.5, "metabolicScale": 1.5 },
+        { "name": "Ring/bifurcation recapture check", "startZone": 0, "c": 0.0718, "s": 0.5, "returnScale": 1.5 }
+      ],
+      "success": "assignment = hinge-stratum; report access rate per condition and overall"
+    },
+    "R-XL": {
+      "conditions": [
+        { "name": "low", "startZone": 0, "c": 0.0015, "s": 0.5 },
+        { "name": "knee", "startZone": 0, "c": 0.0718, "s": 0.5 },
+        { "name": "high", "startZone": 0, "c": 0.1512, "s": 0.5 },
+        { "name": "untargeted control", "startZone": 0, "c": 0.0718, "s": 0.0 }
+      ],
+      "coefficientSensitivity": "Spearman correlation of hingeOccupancy with c across low/knee/high runs; sensitive if rho > 0 with p < 0.05",
+      "nonCircularity": "passes if the untargeted control's hinge-stratum rate is lower than the knee condition's (Fisher exact, p < 0.05)"
+    },
+    "R-XLI": {
+      "coefficients": "15 values evenly spaced from 0.0015 to 0.1512",
+      "startZone": 0, "s": 0.5,
+      "knee": "coefficient of maximum discrete curvature of the mean composite curve (second difference), excluding endpoints"
+    },
+    "R-XLI-R": {
+      "coefficients": [0.07176, 0.07462, 0.08748, 0.10177, 0.11320, 0.12320, 0.13320, 0.14320, 0.12034],
+      "coefficientNote": "the nine original XLI-R coefficients; the last is the recovery position",
+      "startZone": 0, "s": 0.5,
+      "plateau": "at least 4 consecutive coefficients (ordered by c, P1-P8) whose mean composite scores span <= 0.005 and whose fitted slope has a 95% bootstrap interval containing 0",
+      "thresholds": "from calibration seeds 1-10 pooled across the nine coefficients: 5th percentile for fieldConfidence, hingeOccupancy, morphogeneticTransitionScore, boundaryMargin; 95th percentile for recaptureScore",
+      "validation": "apply thresholds to held-out seeds 11-20; report the proportion of runs meeting all five"
+    }
+  },
+  "reportingCommitment": "All outcomes are reported, including failure to replicate any original finding."
+}
