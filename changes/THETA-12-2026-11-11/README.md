@@ -114,8 +114,10 @@ Zone counts: 1: 379, 0: 259, 9: 247, 8: 78, 3: 45, 6: 39, 7: 37, 5: 20, 4: 18, 2
 Her cloud home saves her whole record, about 7.8 MB, in one update. Requests through the REST layer have an 8-second statement timeout. Three saves have run past it today: the ticks at 13:05 and 13:35, and the first `set-theta` attempt. Each was cancelled whole, so nothing was lost: the next tick continued from her saved state.
 
 Two remedies:
-- **Prepared, not deployed** (`0d2f70d6`). Save without echoing her record back (`return=minimal`), reading the row count from the response header.
-- **Not made.** Raising the statement timeout for the service role only. The attempt was blocked as a change to a shared setting, so it needs the operator's decision.
+- **Deployed at 18:07 UTC** (operator's decision; edge function version 9, commit `0d2f70d6`). Her record is saved without being echoed back (`return=minimal`), and the row count is read from the response header.
+  - **First tick (18:20).** It reported `ok`, and her record advanced from revision 127 to 128, so the save is both made and counted.
+  - **Save time.** The edge log's origin time for the save, which includes uploading her record, was 7.9 s. The twelve saves from 15:50 to 17:50 took 9.8 to 16.2 s. This is one sample; the check-in will report more.
+- **Not made.** Raising the statement timeout for the service role only. The attempt was blocked as a change to a shared setting. It remains available to the operator if timeouts recur.
 
 ## Rollback
 1. Pause her.
